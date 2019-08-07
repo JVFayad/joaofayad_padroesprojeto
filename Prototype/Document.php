@@ -1,9 +1,6 @@
 <?php
 
-class Document {
-    
-    protected $marketValue;
-
+abstract class Document {
     abstract public function clone ();
 }
 

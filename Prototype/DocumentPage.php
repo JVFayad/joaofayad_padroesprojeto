@@ -9,6 +9,11 @@ class DocumentPage extends Document {
         
     }
 
+    # Nova instância
+    public function clone () {
+        return new DocumentPage();
+    }
+
 }
 
 ?>
